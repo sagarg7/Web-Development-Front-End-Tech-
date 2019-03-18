@@ -1,0 +1,38 @@
+nav{
+    
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+
+    background-color: lightblue;
+    
+}
+a
+{
+    display: inline;
+    color: black;
+
+   
+    padding: 10px;
+    text-decoration: none;
+}
+ul li{
+    color:lightseagreen;
+}
+header{
+    height:170px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#sidebar{
+width: 300px;
+height:600px;
+float: left;
+background: lightred;
+}
+#data{
+height: 300px;
+color: black;
+font-family: Timesnewromen;
+font-size: 20px;}
+
