@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(25, 25, 141);
+}
+.head
+{
+  color: white; 
+  font-size: 150px ;
+  letter-spacing:5px;
+  margin-top:20px;
+}
+h1,h3{
+  color: white;
+  margin:30px;
+  letter-spacing:1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 500px; 
+  }
+  fieldset{
+    border-radius: 20px;
+     text-align:center;
+     font-size:20px;
+  }
+  .table{
+      
+      padding-bottom: 50px;
+      padding-left: 10px;
+      border-radius: 10px;
+      height: 380px;
+  }
+  .tb1{
+    
+    padding-bottom: 26px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+  .but{
+    border-radius:10px;
+    color: rgb(18, 18, 97);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    cursor: pointer;
+    width: 670px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .column1{
+      float: right;
+  }
+  input{
+      border-radius: 7px;
+      padding: 12px 20px 8px 32px;
+  }
+  textarea{
+      border-radius: 7px;
+  }
+  select{
+    border-radius: 7px;
+    padding: 12px 160px 8px 32px;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

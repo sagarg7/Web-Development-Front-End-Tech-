@@ -1,0 +1,9 @@
+body
+{
+  margin:0;
+  padding: 10px;
+
+}
+table,th{
+  border: 1px solid black;
+}
